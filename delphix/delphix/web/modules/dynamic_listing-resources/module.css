@@ -1,0 +1,29 @@
+
+/* Desktop */
+
+
+/* Tablet */
+@media all and (max-width: 768px) {
+}
+
+
+/* Phone */
+@media all and (max-width: 640px) {
+}
+
+ul{
+    height:auto;
+    columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+.tiles{
+    background-color: #CC3333;
+    width:100%;
+    height: 300px;
+}
+
+.dynamic_list{
+    width:100%;
+}

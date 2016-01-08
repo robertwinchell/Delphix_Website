@@ -1,0 +1,51 @@
+
+/* Desktop */
+
+
+/* Tablet */
+@media all and (max-width: 768px) {
+}
+
+
+/* Phone */
+@media all and (max-width: 640px) {
+}
+
+.wrap {
+      /* force the div to properly contain the floated images: */
+      position:relative;
+      float:left;
+      clear:none;
+      overflow:hidden;
+    }
+    .wrap img {
+      position:relative;
+      z-index:1;
+      width: 100%;
+      height: 35%;
+    }
+    .wrap .desc {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:30%;
+      left:0;
+      z-index:2;
+      text-align:center;
+    }
+
+    .wrap .desc_sub {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:45%;
+      left:0;
+      z-index:2;
+      text-align:center;
+    }
+
+    .overlayed_text{
+        color:white;
+        size:20;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
