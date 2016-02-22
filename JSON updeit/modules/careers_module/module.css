@@ -1,0 +1,203 @@
+.carsm .filter {
+    margin-top: 50px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.carsm .filter-item {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    background-color: #F3F3F3;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    position: relative;
+    width:99.9%;
+    cursor: pointer;
+}
+
+.carsm .filter-item-drop {
+    box-shadow: #cacaca 2px 2px 4px;
+}
+.tile-light {
+    background: #f2f2f3;
+}
+.tile-dark {
+    background: #e7e8e9;
+}
+.carsm .load_more_alt{
+    width: 300px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    margin: 3px auto;
+    height: 45px;
+    line-height: 34px;
+    cursor: pointer;
+    color: #FF0000;
+    margin: -20px -50px;
+    top: 50%;
+    left: 45%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15pt;
+    border: 3px solid #a9a9a9;
+    overflow: hidden;
+    color: #a9a9a9;
+}
+
+.carsm .filter-bg .col-md-6 {
+    padding: 0 0 0 8px;
+}
+
+.carsm .filter-bg .col-md-6:first-child {
+    padding: 0;
+}
+
+.carsm .filter-item > span.glyphicon {
+    float: right;
+    top: 10px;
+    cursor: pointer;
+}
+
+.carsm .filter-item-dp {
+    display: none;
+    height: auto;
+    position: absolute;
+    z-index: 200;
+    background-color: #F3F3F3;
+    width: 100%;
+    left: 0;
+    box-shadow: #cacaca 2px 2px 4px;
+}
+
+.carsm .dp-show {
+    display: block;
+}
+
+.carsm .filter-item-dp-item {
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    line-height: 40px;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.carsm .filter-item-dp-item:hover {
+    background-color: #d43f3a;
+    color: #FFFFFF;
+}
+
+.carsm .filter-bg .col-md-3:last-child .filter-item {
+    text-align: center;
+}
+
+.carsm .load-more {
+    margin: 50px 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.carsm .load-more > span {
+    cursor: pointer;
+}
+
+.carsm .filter-submit {
+    width: 80%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: inherit;
+    border-radius: 1em;
+    margin: 3px auto;
+    line-height: 34px;
+    cursor: pointer;
+    height: 85%;
+}
+
+.carsm .filter-submit:hover {
+    background-color: #d43f3a;
+    color:  #FFFFFF;
+}
+
+.carsm .tiles {
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+}
+
+.carsm #list a:nth-child(even) .inner-tiles {
+    background-color: #F3F3F3;
+}
+
+.carsm #list a:nth-child(odd) .inner-tiles {
+    background-color: #E7E8E8;
+}
+
+.carsm .inner-tiles {
+    border-top: 1px solid #BC2027;
+    padding: 30px;
+    height: auto;
+    min-height: 250px;
+}
+
+.carsm .tile-department {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.carsm .tile-title {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.carsm .tile-location {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+}
+
+.carsm .tile-link {
+    display: block;
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
+}
+
+.carsm .tile-link > span {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.carsm .not_found {
+    font-weight: bold;
+    font-size: 1.3em;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media all and (max-width: 1024px) {
+    .carsm .filter-bg .col-md-6 {
+        padding: 0;
+    }
+
+    .carsm .filter-item {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 720px) {
+    .carsm .col-md-4 {
+        width: 50%;
+        float: left;
+    }
+}

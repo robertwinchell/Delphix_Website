@@ -1,0 +1,127 @@
+
+/* Desktop */
+
+
+/* Tablet */
+@media all and (max-width: 768px) {
+}
+
+
+/* Phone */
+@media all and (max-width: 640px) {
+}
+
+.deixm .demo_delphix_container{
+    width:100%;
+    height: auto;
+    min-height: 350px;
+    background-color: #667E82;
+    margin: 0 auto;
+
+}
+
+.deixm .header_text{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+    text-align: center;
+    font-size: 4.8em;
+
+}
+
+.deixm .subtext{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 2.6em;
+
+}
+
+.deixm .phone_text{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 1.3em;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+
+.deixm .demo_delphix_button{
+       width: 250px;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    margin: 3px auto;
+    height: 45px;
+    line-height: 34px;
+    cursor: pointer;
+    color: #FF0000;
+   font-family: 'Lato', sans-serif;
+   font-size: 1.4em;
+   font-weight: 300;
+   border: none;
+    overflow: hidden;
+
+}
+.deixm .demo_text_container{
+    padding-top: 1%;
+}
+
+.deixm .homepage-demo {
+    background: #ededed url("/images/Gray_Texture_Overlay.png");
+    background-size: cover;
+    margin: 75px 0;
+    padding: 50px 0;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    height: 477px;
+    background-attachment: fixed;
+    background-position: top center;
+
+}
+
+.deixm .homepage-demo-play {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    padding-top: 4.5%;
+}
+
+.deixm .homepage-demo-desc {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 4.0em;
+     font-family: 'Lato', sans-serif;
+     font-weight: lighter;
+    line-height: 70px;
+}
+
+.deixm .homepage-demo-sub {
+    font-size: 2.2em;
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 30px;
+     font-family: 'Lato', sans-serif;
+}
+
+.deixm .homepage-demo-button {
+    background-color: #FFF;
+    padding: 5px 20px;
+    color: #929495;
+    border: 2px solid #929495;
+    border-radius: 1rem;
+    font-size: 1.3em;
+     font-family: 'Lato', sans-serif;
+}
+
+.deixm .homepage-demo-button:hover {
+    color: #929495;
+}

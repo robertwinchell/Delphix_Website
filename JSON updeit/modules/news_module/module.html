@@ -1,0 +1,59 @@
+<style type="text/css" media="all">
+    @import url("/modules/news_module/module.css");
+</style>
+
+<section class="nm">
+    <div class="container filter">
+        <div class="filter-bg">
+            <div class="col-md-3">
+                <div class="filter-item" id="category-div-news">
+                    <span class="filter-dp-text" id="category_news">Category</span>
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+
+                    <div class="filter-item-dp" id="targetCategory_news"></div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="filter-item" id="date-item-news">
+                    <div id="handlerDate_news">
+                        <span class="filter-dp-text" id="date_news">Date</span>
+                        <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </div>
+
+                    <div id="targetDate_news"></div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="filter-item-alt">
+                    <span class="keywork-search-text">Keyword</span>
+                    <input type="text" class="keyword-search-input" id="keyword_news">
+                </div>
+            </div>
+            
+            <!--<div class="col-md-3">
+                <div class="filter-item">
+                    <span class="filter-submit" id="filterSubmit">Explore</span>
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <div class="list-container">
+    <div class="dynamic_list" id="list_news">
+    </div>
+    
+    </div>
+
+    <div class="load-more">
+        <!--<span data-action="load-more">
+            <span class="left-right">(</span>
+            <span class="load-more-text">Load More</span>
+            <span class="left-right">)</span>-->
+
+        <span id="loadMore_news" class="load_more_alt" data-action="load-more">Load More</span>
+        </span>
+    </div>
+</section>
+
+<script type="text/javascript" src="/modules/news_module/module.js?nmrhii"></script>

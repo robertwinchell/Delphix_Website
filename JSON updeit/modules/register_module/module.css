@@ -1,0 +1,268 @@
+/* Wrapper Styles */
+
+
+
+.wrapper {}
+
+.reg_container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reg_background {
+    width: 100%;
+    background-color: #E4E5E6;
+}
+
+.masthead {}
+
+.masthead-image {
+    position: relative;
+    text-align: center;
+}
+
+.masthead-image-src {
+    max-width: 569px;
+    width: 100%;
+}
+
+.masthead-image-overlay {
+    position: absolute;
+    max-width: 569px;
+    max-height: 580px;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.masthead-image-overlay-center {
+    height: 94%;
+    width: 94%;
+    background: rgba(255, 255, 255, 0.9) url("http://json.ikerperez.es/images/zoom_icon.png") no-repeat center center;
+    margin: 3%;
+}
+
+.masthead-text {
+    margin: 30px 0;
+}
+
+.masthead-text-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.masthead-text-description {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    display: block;
+    font-size: 2.5em;
+    line-height: 1.1em;
+    margin-bottom: 15px;
+}
+
+.masthead-text-content {
+    margin-bottom: 40px;
+}
+
+.masthead-download-title {
+    font-weight: bold;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.masthead-download-content {
+    line-height: 2em;
+}
+
+.masthead-download-content a {
+    display: block;
+}
+
+.wrapper-form {
+    margin-top: 20px;
+    background-color: #f3f3f4;
+    padding: 30px 5px 100px;
+    height: auto;
+    width: 100%;
+}
+
+.wrapper-form-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.wrapper-form-message {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.wrapper-form-inputs {
+    margin-bottom: 40px;
+}
+
+.wrapper-form-inputs-top {
+    margin-bottom: 30px;
+}
+
+.wrapper-form-inputs-bottom {}
+
+.wrapper-form-input {
+    width: 49%;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 500em;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.wrapper-form-input:last-child {
+    float: right;
+}
+
+.wrapper-form-submit {
+    border: 1px solid #BC2027;
+    background: transparent;
+    color: #BC2027;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    border-radius: 500em;
+    padding: 5px 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper-message {
+    display: none;
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background-image: url("../../images/form-bg.png");
+    text-align: center;
+    color: #BC2027;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-message-content {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100% !important;
+    max-width: 1280px;
+}
+
+.wrapper-message-1 {
+    display: block;
+    font-size: 7em;
+    line-height: 1.1em;
+}
+
+.wrapper-message-2 {
+    display: block;
+    font-size: 7em;
+    line-height: 1.1em;
+}
+
+.wrapper-message-3 {
+    display: block;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.wrapper-message-download {
+    font-size: 2em;
+    border: 1px solid #BC2027;
+    border-radius: 500em;
+    padding: 5px 20px;
+}
+
+
+/*This is a duplicate of the above classes for the blocked alt, the only difference is the display att*/
+
+.wrapper-message_alt {
+    display: table;
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background-image: url("../../images/form-bg.png");
+    text-align: center;
+    color: #BC2027;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+@media all and (max-width: 720px) {
+    .wrapper-form-input {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media all and (max-width: 512px) {
+    .wrapper-message-1 {
+        display: block;
+        font-size: 5em;
+        line-height: 1.0em;
+    }
+    .wrapper-message-2 {
+        display: block;
+        font-size: 5em;
+        line-height: 1.0em;
+    }
+    .wrapper-message-3 {
+        display: block;
+        font-size: 3em;
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .wrapper-message-1 {
+        display: block;
+        font-size: 4em;
+        line-height: 1.0em;
+    }
+    .wrapper-message-2 {
+        display: block;
+        font-size: 4em;
+        line-height: 1.0em;
+    }
+    .wrapper-message-3 {
+        display: block;
+        font-size: 2em;
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 270px) {
+    .wrapper-message-1 {
+        display: block;
+        font-size: 3em;
+        line-height: 1.0em;
+    }
+    .wrapper-message-2 {
+        display: block;
+        font-size: 3em;
+        line-height: 1.0em;
+    }
+    .wrapper-message-3 {
+        display: block;
+        font-size: 2em;
+        margin-bottom: 50px;
+    }
+}

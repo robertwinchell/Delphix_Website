@@ -1,0 +1,54 @@
+/* Bio Block Style */
+.lbm .bio {
+    margin: 20px auto 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.lbm .bio-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.lbm .bio-title {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.lbm .bio-block {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.lbm .bio-right {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.lbm .bio-image {
+    text-align: center;
+}
+
+.lbm .bio-image img {
+    border: 25px solid #f8f8f9;
+    border-radius: 500rem;
+    max-width: 100%;
+}
+
+.lbm .bio-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.lbm .bio-button a {
+    border: 2px solid #88868b;
+    padding: 5px 10px;
+    border-radius: 1.5rem;
+    font-size: 1.5em;
+}
+
+/* End Bio Block Style */

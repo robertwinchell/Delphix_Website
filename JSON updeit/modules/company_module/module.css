@@ -1,0 +1,431 @@
+/* Text Top Block Style */
+.conyam .text-block {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.company-gutter{
+    padding-left:80px;
+    padding-right: 60px;
+}
+
+.company-gutter-2{
+    padding-left:65px;
+}
+
+.company-gutter-3{
+    padding-left:65px;
+}
+.conyam .text-block-title {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.conyam .text-block-content {
+    margin: 0;
+    font-family: "Lato",sans-serif;
+    font-size: 2em;
+}
+
+/* End Text Top Block Style */
+
+/* Meet Block Style */
+.conyam .meet-block {
+    background: #f5f5f5;
+    padding: 50px 0;
+    font-family: "Lato", sans-serif;
+}
+
+.conyam .meet-block .row > div {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.conyam .meet-block .row > div:first-child {
+    text-align: center;
+}
+
+.conyam .meet-block .meet-image {
+    display: inline-block;
+    background: #e8e9e9;
+    border-radius: 500rem;
+    padding: 20px;
+}
+
+.conyam .meet-block .meet-image img {
+    max-width: 100%;
+}
+
+.conyam .meet-block .meet-title {
+    display: block;
+    font-size: 2.6em;
+    margin-bottom: 30px;
+}
+
+.conyam .meet-block .meet-content {
+    margin: 0 0 20px;
+    font-size: 1.3em;
+}
+
+.conyam .meet-block .meet-link {
+    font-size: 1.1em;
+}
+
+/* End Meet Block Style */
+
+/* Career Block Style */
+.conyam .career-block {
+    background: #e8e9e9;
+    padding: 15px 0;
+}
+
+.conyam .career-block .row > div {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.conyam .career-block .career-over-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.conyam .career-block .career-title {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.conyam .career-block .career-content {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.conyam .career-block .career-link {
+
+}
+
+.conyam .career-block .career-link span {
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 1.7em;
+}
+
+.conyam .career-block .career-list {
+    background: #FFF;
+    padding: 5px;
+}
+
+.conyam .career-block .career-list-item .item-left {
+
+}
+
+.conyam .career-block .career-list-item {
+    background: #e8e9e9;
+    margin-bottom: 5px;
+    padding: 5% 10%;
+}
+
+.conyam .career-block .career-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.conyam .career-block .career-list-item:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.conyam .career-block .career-item-title {
+    display: block;
+    font-weight: bold;
+}
+
+.conyam .career-block .career-item-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.conyam .career-block .career-list-item .item-right {
+    text-align: center;
+    font-size: 2em;
+}
+
+/* End Career Block Style */
+
+/* Tile Block Style */
+.conyam .tiles-block {
+    margin: 20px 0;
+}
+
+.conyam .inner-tile {
+    background: #e8e9e9;
+    border-top: 1px solid #cf562d;
+    min-height: 330px;
+}
+
+.conyam .inner-tile > div {
+    vertical-align: middle;
+    display: inline-block;
+    width: 49%;
+    padding: 20px 0;
+}
+
+.conyam .tile-image {
+    padding: 15px;
+}
+
+.conyam .tile-image img {
+    max-width: 100%;
+}
+
+.conyam .tile-category {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.conyam .tile-date {
+    font-family: 'Lato', sans-serif;
+    display: block;
+    font-size: 0.8em;
+}
+
+.conyam .tile-title {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.conyam .tile-desc {
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 20px;
+}
+
+.conyam .tile-link {
+    font-family: 'Lato', sans-serif;
+    vertical-align: bottom;
+}
+
+.conyam .tile-link span {
+    vertical-align: middle;
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+/* End Tile Block Style */
+
+/* Cards Block Style */
+.conyam .cards-block {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.conyam .cards-block .card-image {
+    border: 15px solid #f5f5f5;
+    border-radius: 500rem;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.conyam .cards-block .card-image > div {
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.conyam .cards-block .card-image > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.conyam .cards-block .card-title {
+    display: block;
+    margin: 50px 0 10px;
+    font-weight: bold;
+}
+
+.conyam .cards-block .card-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    max-width: 400px;
+    margin: 0px auto 20px;
+}
+
+.conyam .cards-block .card-link {
+    font-family: 'Lato', sans-serif;
+    border: 2px solid #8d8e8e;
+    font-size: 1.5em;
+    padding: 5px 30px;
+    border-radius: 1.5rem;
+}
+
+.conyam .cards-block .card-link:hover {
+    color: inherit;
+}
+
+/* End Cards Block Style */
+
+/* Location Block */
+.conyam .location-block {
+    font-family: 'Lato', sans-serif;
+}
+
+.conyam .location-block .location-title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.conyam .location-block .location-inner {
+    background: #f5f5f5;
+    border-top: 1px solid #cf562d;
+}
+
+.conyam .location-block .row > div {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.conyam .location-block .location-inner .col-md-7 {
+    padding: 0 2% 0 7%;
+}
+
+.conyam .location-block .col-md-7 > .row:first-child {
+    margin-bottom: 50px;
+}
+
+.conyam .location-block .location-inner-title {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.conyam .location-block .location-inner-desc {
+    display: block;
+    font-size: 1.5em;
+}
+
+.conyam .location-block .location-image {
+    padding: 10px 10px 20px;
+}
+
+.conyam .location-block .location-image img {
+    width: 100%;
+}
+
+/* End Location Block */
+
+/* Responsive Styles */
+@media all and (max-width: 1024px) {
+    .conyam .meet-block .col-md-4 {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .conyam .meet-block .col-md-8 {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .conyam .company-gutter-3 {
+        padding-left: 15px;
+    }
+
+    .conyam .company-gutter {
+        padding-left: 60px;
+    }
+
+    .conyam .company-gutter-2 {
+        padding-left: 15px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .conyam .career-block .col-md-7 {
+        text-align: center;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .conyam .career-block .col-md-5 {
+        display: block!important;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .conyam .tiles-block .tile:first-child {
+        margin-bottom: 30px;
+    }
+
+    .conyam .cards-block .col-md-6:first-child {
+        margin-bottom: 50px;
+    }
+
+    .conyam .location-block .col-md-7 {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .conyam .location-block .col-md-7 > .row:first-child {
+        margin-bottom: 0;
+    }
+
+    .conyam .location-block .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .conyam .location-block .col-md-5 {
+        display: block!important;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .conyam .career-block .col-md-5 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .conyam .meet-block .meet-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .conyam .career-block .career-list-item .item-right {
+        display: block!important;
+        margin-top: 20px;
+    }
+
+    .conyam .tiles-block .tile-left {
+        display: none;
+    }
+
+    .conyam .tiles-block .tile-right {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .conyam .cards-block .card-image {
+        height: 300px;
+        width: 300px;
+    }
+
+    .conyam .cards-block .card-desc {
+        max-width: 300px;
+    }
+
+    .conyam .location-block .col-md-6 {
+        padding: 0 30px;
+    }
+}
+
+/* End Responsive Styles */

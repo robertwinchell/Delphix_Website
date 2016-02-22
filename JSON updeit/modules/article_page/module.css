@@ -1,0 +1,224 @@
+.article-page-module img {
+    max-width: 100%;
+}
+
+.article-page-module .col-md-6{
+        position: relative;
+    min-height: 1px; 
+    padding-right: 5px; 
+    padding-left: 5px;
+}
+
+.article-page-module .article-container{
+        width: 100%;
+    max-width: 1280px;
+    display: table;
+}
+
+.article-page-module .article-indent{
+}
+
+.article-page-module .article-title {
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    line-height: 1em;
+}
+
+.article-page-module .article-author {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.article-page-module .article-date {
+    display: block;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+}
+
+.article-page-module .social-icons {
+    margin: 25px 0;
+}
+
+.article-page-module .social-icons a {
+    background-color: #818282;
+    border-radius: 500rem;
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.article-page-module .social-icons a:first-child {
+    margin-left: 0;
+}
+
+.article-page-module .article-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+.article-page-module .article-content {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+}
+.article-page-module .article-content .row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.article-page-module .article-full-text {
+    margin-top: 40px;
+}
+
+.article-page-module .article-full-text p {
+    margin: 0 0 25px;
+}
+
+.article-page-module .share-button {
+    display: block;
+    width: 150px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+    border: 2px solid #818282;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.article-page-module .share-button:hover {
+    color: inherit;
+}
+
+.article-page-module .related-title {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    margin-left: 50px;
+}
+
+.article-page-module .related-articles {
+    margin: 20px 0 10px;
+}
+
+.article-page-module .tile {
+    padding: 15px;
+    border-top: 2px solid #bc2027;
+}
+
+.article-page-module .tile-left {
+    display: inline-block;
+}
+
+.article-page-module .tile-right {
+    max-width: 52%;
+    float: right;
+    margin-top: 30px;
+}
+
+.article-page-module .tile-category {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.article-page-module .tile-date {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+}
+
+.article-page-module .tile-title {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.article-page-module .tile-desc {
+    display: block;
+    margin: 15px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.article-page-module .tile-link {
+    font-family: 'Lato', sans-serif;
+}
+
+.article-page-module .tile-link span {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+@media (max-width: 720px) {
+    .article-page-module .article-title {
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    line-height: 1em;
+}
+
+    .article-page-module .article-container{
+        width: 100%;
+    max-width: 1280px;
+    display: block;
+}
+}
+
+@media all and (max-width: 1280px) {
+    .article-page-module .container.article-page-module {
+		display: block;
+	}
+    .article-page-module .tile img {
+        display: none;
+    }
+
+    .article-page-module .tile-category {
+        display: block;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+
+    .article-page-module .tile-date {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9em;
+    }
+
+    .article-page-module .tile-title {
+        display: block;
+        margin-top: 15px;
+        font-size: 1.3em;
+    }
+
+    .article-page-module .tile-desc {
+        margin-top: 15px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .article-page-module .tile-link > span {
+        font-size: 1.5em;
+        vertical-align: middle;
+    }
+
+    .article-page-module .tile .tile-right {
+        max-width: 100%;
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .article-page-module .tile {
+        height: auto;
+    }
+
+    .article-page-module .inner-tile {
+        min-height: 300px;
+    }
+}

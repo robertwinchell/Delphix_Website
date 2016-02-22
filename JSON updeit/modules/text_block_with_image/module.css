@@ -1,0 +1,37 @@
+
+/* Desktop */
+
+
+/* Tablet */
+@media all and (max-width: 768px) {
+}
+
+
+/* Phone */
+@media all and (max-width: 640px) {
+}
+
+.tbwm .column_container{
+    width:100%;
+    min-width: 100%
+}
+.tbwm .left_column{
+    float:left;
+    width:45%;
+    height: 385px;
+    overflow:hidden;
+    background-image: url("http://img.memecdn.com/fat-cats-are-cannibals_o_3338377.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+     border: 5px solid #808080;
+    box-shadow: 0px 0px 0px 8px #808080; 
+
+}
+.tbwm .right_column{
+    float:right;
+    width:45%;
+}
+
+.tbwm .img_border{
+   
+}

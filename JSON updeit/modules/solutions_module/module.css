@@ -1,0 +1,274 @@
+        .sonsm img {
+            max-width: 100%;
+        }
+
+        .sonsm .col-md-4 {
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+        }
+
+        .sonsm .image-border {
+            border-radius: 500rem;
+            border: 25px solid #e1e1e1;
+        }
+
+        .sonsm .img-display {
+            display: block;
+        }
+
+        .sonsm .g-container {
+            width: 100%;
+            max-width: 1280px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .sonsm .contactus {
+            padding: 10px 0;
+            background: #f1f2f2;
+        }
+
+        .sonsm .contactus-problem {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        .sonsm .short {
+            display: none;
+        }
+
+        .sonsm .contactus-action {
+            float: right;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .sonsm .contactus-action span {
+            font-size: 1.3em;
+            vertical-align: top;
+        }
+
+        .sonsm .problem,
+        .sonsm .solution {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .sonsm .problem-title,
+        .sonsm .solution-title {
+            display: block;
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .sonsm .problem-text,
+        .sonsm .solution-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 2em;
+            font-weight: 300;
+            margin: 0;
+        }
+
+        .sonsm .solution {
+            background: #f1f2f2;
+        }
+
+        .sonsm .graph {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .sonsm .infobox {
+            background: #f1f2f2;
+            padding: 50px 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .sonsm .infobox-container {
+            display: inline-block;
+            vertical-align: middle;
+            float: none;
+            padding-left: 70px;
+        }
+
+        .sonsm .infobox .col-md-4 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .sonsm .infobox-title {
+            font-size: 2em;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        .sonsm .infobox-text {
+            font-size: 1.3em;
+        }
+
+        .sonsm .infobox-middle {
+            background: #ebebeb;
+        }
+
+        .sonsm .infobox-middle  .infobox-container {
+            padding-left: 15px;
+            padding-right: 70px;
+        }
+
+        .sonsm .infobox-image-text {
+            display: block;
+            font-weight: bold;
+            color: #bc2027;
+            margin-top: 15px;
+        }
+
+        .sonsm .actions {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .sonsm .actions .row {
+            padding: 0 50px;
+        }
+
+        .sonsm .action-title {
+            display: block;
+            font-weight: bold;
+            margin: 20px 0 10px;
+        }
+
+        .sonsm .action-desc {
+            display: block;
+            font-family: 'Lato', sans-serif;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .sonsm .action-button {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.5em;
+            border: 1px solid #898b8e;
+            border-radius: 500rem;
+            padding: 5px 25px;
+        }
+
+        .sonsm .action-button:hover {
+            color: inherit;
+        }
+
+        .sonsm .case {
+            background: #e1e0e0;
+        }
+
+        .sonsm .case .container {
+            background: url("/images/Earth_Photo.png");
+        }
+
+        .sonsm .case-logo {
+            display: block;
+            margin: 50px 0;
+        }
+
+        .sonsm .case-title {
+            display: block;
+            font-family: 'Lato', sans-serif;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        .sonsm .case p {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.2em;
+        }
+
+        .sonsm .case-challenge {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        .sonsm .case-link {
+            display: block;
+            font-family: 'Lato', sans-serif;
+            margin-top: 30px;
+            font-size: 1.1em;
+        }
+
+        .sonsm .case-link span {
+            vertical-align: top;
+            font-size: 1.4em;
+        }
+
+        .sonsm .case-img {
+            padding: 50px;
+        }
+
+        .sonsm .nasa-padding {
+            padding-left: 50px;
+        }
+
+        @media all and (max-width: 990px) {
+            .sonsm .infobox-container {
+                display: block;
+            }
+        }
+
+        @media all and (max-width: 575px) {
+            .sonsm .short {
+                display: block;
+            }
+            .sonsm .long {
+                display: none;
+            }
+            .sonsm .contactus-problem {
+                font-family: 'Lato', sans-serif;
+                font-size: 1.2em;
+                font-style: italic;
+                float: left;
+            }
+            .sonsm .contactus-action {
+                float: right;
+                font-size: 1.1em;
+                font-weight: bold;
+            }
+            .sonsm .contactus-action span {
+                font-size: 1.3em;
+                vertical-align: top;
+            }
+        }
+
+        @media all and (max-width: 400px) {
+            .sonsm .contactus-problem {
+                font-family: 'Lato', sans-serif;
+                font-size: 1em;
+                font-style: italic;
+            }
+            .sonsm .contactus-action {
+                float: right;
+                font-size: 1em;
+                font-weight: bold;
+            }
+            .sonsm .contactus-action span {
+                font-size: 1em;
+                vertical-align: top;
+            }
+            @media all and (max-width: 1028px) {
+                .sonsm .case .container {
+                    background: none;
+                }
+                .sonsm .infobox {
+                    text-align: center;
+                }
+            }
+            @media all and (max-width: 1028px) {
+                .sonsm .actions .col-md-4 {
+                    margin-bottom: 30px;
+                }
+            }
+        }

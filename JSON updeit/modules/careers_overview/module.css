@@ -1,0 +1,442 @@
+/* Global Style */
+
+.carsom .gray-bg {
+    background-color: #f5f5f5;
+}
+
+
+/* End Global Style */
+
+
+/* Text Section Style */
+.carsom .carousel-width{
+    width:25%!important;
+    float: left!important;
+}
+.carsom .text-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.carsom .text-section-no-button {
+    padding: 50px 0 20px;
+}
+
+.carsom .text-section-title {
+    display: block;
+    font-weight: bold;
+}
+
+.carsom .text-section-button {
+    border: 1px solid #818385;
+    padding: 5px 15px;
+    border-radius: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.carsom .text-section-button:hover {
+    color: inherit;
+}
+
+
+/* End Text Section Style */
+
+
+/* Collect Style */
+
+.carsom .collect-section {
+    background: #f5f5f5;
+}
+
+
+/* Collect Header Images Style */
+
+.carsom .collect-header-space {
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    position: relative;
+}
+
+.carsom .collect-header-images {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -128px;
+}
+
+.carsom .collect-header-images-inner {
+    position: relative;
+    width: 197px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.carsom .collect-header-image {
+    border: 98.5px solid #f5f5f5;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    height: 0;
+    width: 0;
+    transform: rotate(45deg);
+    border-radius: 500rem;
+}
+
+.carsom .collect-header-images-inner img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.carsom .collect-header-image-text {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Collect Header Images Responsive Style */
+
+.carsom .collect-header-responsive {
+    padding-top: 40px;
+    display: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carsom .collect-header-responsive ul {
+    list-style: none;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.carsom .collect-header-responsive ul li {
+    width: 24px;
+    height: 24px;
+    border-radius: 500rem;
+    background: #767676;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.carsom .collect-header-responsive ul li.active {
+    width: 32px;
+    height: 32px;
+    background: #286090;
+}
+
+.carsom .collect-header-responsive ul li span {
+    display: none;
+}
+
+
+/* End Collect Header Images Responsive Style */
+
+
+/* End Collect Header Images Style */
+
+.carsom .collect-main {
+    text-align: center;
+    padding: 179px 0 30px;
+}
+
+.carsom .collect-main-image {
+    display: block;
+    width: 100%;
+}
+
+.carsom .collect-main-title {
+    display: block;
+    font-weight: bold;
+    margin: 50px 0 30px;
+}
+
+.carsom .collect-main-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.carsom .collect-main-link {
+    border: 1px solid #818385;
+    padding: 10px 30px;
+    border-radius: 1.5rem;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    background: #ffffff;
+}
+
+.carsom .collect-main-link:hover {
+    color: inherit;
+}
+
+
+/* End Collect Style */
+
+
+/* Benefits Style */
+
+.carsom .benefits-main-title {
+    display: block;
+    text-align: center;
+    margin: 50px 0 30px;
+    font-weight: bold;
+}
+
+.carsom .benefits-main-tile {
+    display: table;
+}
+
+.carsom .benefits-main-tile-img {
+    display: table-cell;
+    background: #f5f5f6;
+    border-radius: 500rem;
+    width: 129px;
+    height: 129px;
+}
+
+.carsom .benefits-main-tile-img img {
+    width: 109px;
+    height: 109px;
+    margin: 10px 0 0 10px;
+}
+
+.carsom .benefits-main-tile-content {
+    display: table-cell;
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+}
+
+.carsom .benefits-main-tile-title {
+    font-weight: bold;
+    font-size: 1.4em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.carsom .benefits-main-tile-text {
+    font-size: 1.2em;
+    padding-right: 17%;
+}
+
+.carsom .benefits-main-tile-link {
+    font-size: 1.2em;
+}
+
+.carsom .benefits-main-tile-link span {
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.carsom .benefits-main-row-2 {
+    margin-top: 75px;
+}
+
+
+/* End Benefits Style */
+
+
+/* Careers Style */
+
+.carsom .careers-main {
+    margin: 75px 0px 50px;
+    text-align: center;
+}
+
+.carsom .careers-main-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.carsom .careers-main-tile-image {
+    width: 230px;
+    height: 230px;
+    border: 10px solid rgb(245, 245, 246);
+    border-radius: 500rem;
+    margin: 0 auto;
+}
+
+.carsom .careers-main-tile-image div {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.carsom .careers-main-tile-title {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 20px 0 0;
+}
+
+.carsom .careers-main-tile-link {
+    border: 1px solid rgb(129, 131, 133);
+    border-radius: 1.5rem;
+    font-family: "Lato", sans-serif;
+    font-size: 1.3em;
+    padding: 5px 50px;
+}
+
+.carsom .careers-main-tile-link:hover {
+    color: inherit;
+}
+
+.carsom .careers-main-margin {
+    margin-top: 50px;
+}
+
+
+/* End Careers Style */
+
+
+/* Relations Style */
+
+.carsom .relations-main {
+    background: rgb(234, 237, 240) none repeat scroll 0 0;
+}
+
+.carsom .relations-main .container {
+    background: transparent url("/images/careers_relations_bg.png") no-repeat scroll 0 -25px;
+}
+
+.carsom .relations-main .col-md-7 {
+    padding: 30px 75px;
+}
+
+.carsom .relations-main-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.carsom .relations-main-subtitle {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    margin: 30px 0;
+    font-size: 2em;
+}
+
+.carsom .relations-main-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+.carsom .relations-main-image {
+    max-width: 100%;
+    padding: 15px;
+}
+
+
+/* End Relations Style */
+
+
+/* Responsive Style */
+
+@media all and (max-width: 1280px) {
+    .carsom .collect-header-images {
+        bottom: -115px;
+    }
+    .carsom .collect-header-images-inner {
+        width: 170px;
+    }
+    .carsom .collect-header-images-inner img {
+        height: 150px;
+    }
+    .carsom .collect-header-image {
+        border-width: 85px;
+    }
+    .carsom .collect-main-title {
+        display: block;
+        font-weight: bold;
+        margin: 0 0;
+    }
+    .carsom .collect-header-space {
+        height: 100px;
+    }
+    .carsom .collect-main {
+        padding: 150px 0 30px;
+    }
+    .carsom .benefits-main-tile {
+        margin-bottom: 30px;
+    }
+    .carsom .careers-main .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .carsom .relations-main .container {
+        background: none;
+    }
+    .carsom .relations-main .col-md-5 {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .carsom .collect-header-images {
+        bottom: -110px;
+    }
+
+    .carsom .collect-header-images-inner {
+        width: 160px;
+    }
+
+    .carsom .collect-header-image {
+        border-width: 80px;
+    }
+
+    .carsom .collect-header-images-inner img {
+        height: 140px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .carsom .collect-header-images {
+        bottom: -95px;
+    }
+
+    .carsom .collect-header-images-inner {
+        width: 130px;
+    }
+
+    .carsom .collect-header-image {
+        border-width: 65px;
+    }
+
+    .carsom .collect-header-images-inner img {
+        height: 110px;
+    }
+
+    .carsom .collect-main {
+        padding: 125px 0 30px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .carsom .collect-header-images {
+        display: none;
+    }
+
+    .carsom .collect-main {
+        padding: 30px 0;
+    }
+    
+    .collect-header-responsive {
+        display: block!important;
+    }
+    
+    .carsom .benefits-main-tile-img {
+        background: none;
+    }
+}
+
+
+/* End Responsive Style */

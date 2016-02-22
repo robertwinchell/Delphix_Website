@@ -1,0 +1,187 @@
+/* Tabs Styles */
+
+.leadership-module {
+    position: relative;
+    padding-top: 50px;
+}
+
+.tab-display-short{
+    display:none!important;
+}
+
+.tab-display-long{
+    display:inline-block!important;
+}
+
+.leadership-module .leadership-tabs {
+    position: absolute;
+    top: -40px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.leadership-module .leadership-tabs span {
+    height: 35px;
+    background: #c2c2c2;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 50px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-top: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    vertical-align: bottom;
+    width: 240px;
+    margin-right: 5px;
+}
+
+.leadership-module .leadership-tabs span:last-child {
+    margin-right: 0;
+}
+
+.leadership-module .leadership-tabs .active {
+    height: 40px;
+    margin-top: 0;
+    border-top: 2px solid #BC2027;
+    color: #BC2027;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    font-size: 1em;
+}
+
+
+/* End Tabs Style */
+
+
+/* Board Styles */
+
+.leadership-module .board {
+    padding: 30px 0 80px;
+}
+
+.leadership-module .board-bg {
+    background: #f8f8f9;
+}
+
+.leadership-module .board-title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.leadership-module .board .row:first-child {
+    margin-bottom: 50px;
+}
+
+.leadership-module .card {
+    text-align: center;
+}
+
+.leadership-module .card-img {
+    display: inline-block;
+    background: #f8f8f9;
+    border-radius: 500rem;
+    padding: 15px;
+}
+
+.leadership-module .board-bg .card-img {
+    background: #FFFFFF;
+}
+
+.leadership-module .card-title {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.leadership-module .card-desc {
+    font-family: 'Lato', sans-serif;
+    display: block;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+}
+
+.leadership-module .card-link {
+    color: #87868a;
+    border: 2px solid #87868a;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    padding: 5px 20px;
+    border-radius: 1.5rem;
+}
+
+.leadership-module .card-link:hover {
+    color: inherit;
+}
+
+
+/* End Board Styles */
+
+
+/* Responsive Styles */
+
+@media all and (max-width: 750px) {
+    .leadership-tab-width {
+        width: 150px!important;
+    }
+
+    .tab-display-short{
+    display:inline-block!important;
+}
+
+.tab-display-long{
+    display:none!important;
+}
+
+}
+
+@media all and (max-width: 495px) {
+    .leadership-tab-width {
+        width: 100px!important;
+    }
+    .leadership-module .leadership-tabs span {
+        padding: 0;
+        width: 116px;
+    }
+}
+
+@media all and (max-width: 330px) {
+    .leadership-tab-width {
+        width: 75px!important;
+    }
+}
+
+.leadership-tabs span:last-child {
+    margin-right: 0;
+}
+
+@media all and (max-width: 968px) {
+    .leadership-module .card {
+        margin-bottom: 50px;
+    }
+    .leadership-module .card:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .leadership-module .leadership-tabs span {
+        width: 210px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .leadership-module .leadership-tabs span {
+        padding: 0;
+        width: 116px;
+    }
+}
+
+
+/* End Responsive Styles */

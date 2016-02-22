@@ -1,0 +1,150 @@
+/* Top Text Style */
+.coctm .top-text {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.coctm .top-text span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* End Top Text Styles */
+
+/* Form Styles */
+.coctm .form-contact {
+    background: #f6f6f6;
+    padding: 50px 0;
+}
+
+.coctm .form-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.coctm .form-desc {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.coctm .form-contact form .row {
+    margin-bottom: 20px;
+}
+
+.coctm .form-contact form .col-md-12 {
+    position: relative;
+}
+
+.coctm .form-select {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 500rem;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.coctm .form-contact form .col-md-12 .glyphicon {
+    position: absolute;
+    font-size: 2em;
+    right: 3%;
+    top: 25%;
+    cursor: pointer;
+}
+
+.coctm .form-input {
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 500rem;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.coctm .form-submit {
+    background: none;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    color: #ee7d58;
+    border: 1px solid #ee7d58;
+    padding: 5px 50px;
+    border-radius: 1.5rem;
+    font-size: 1.3em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* End Form Styles */
+
+/* Place Info Styles */
+.coctm .place-info {
+    margin: 10px 0;
+}
+
+.coctm .place-inner {
+    background: #f6f6f6;
+    border-top: 1px solid #be2429;
+    padding: 30px 0;
+}
+
+.coctm .place-inner .row:first-child {
+    margin-bottom: 30px;
+}
+
+.coctm .place-info .col-md-6 {
+    padding: 0 2.5%;
+}
+
+.coctm .place-info .col-md-6 span {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.coctm .place-title {
+    margin-bottom: 10px;
+    font-size: 1.8em!important;
+}
+
+/* End Place Info Styles */
+
+/* Responsive Styles */
+@media all and (max-width: 1024px) {
+    .coctm .place-info .col-md-6 {
+    padding: 0 10%;
+}
+    .coctm .form-contact .row .col-md-6:first-child {
+        margin-bottom: 20px;
+    }
+
+    .coctm .place-info .row .col-md-6:first-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .coctm .form-contact form .col-md-12 .glyphicon {
+        right: 5%;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .coctm .form-contact form .col-md-12 .glyphicon {
+        right: 10%;
+    }
+}
+
+/* End Responsive Styles */

@@ -1,0 +1,307 @@
+/* Global Declarations */
+.evtsm img {
+    max-width: 100%;
+}
+
+/* End Global Declarations */
+
+/* Featured block */
+.evtsm .event-filter-width{
+    width:25%!important;
+}
+.evtsm .col-md-4{
+        position: relative;
+    min-height: 1px;
+    padding-left: 1px;
+}
+
+.evtsm .inner-featured {
+    background: rgb(234, 235, 235) none repeat scroll 0% 0%;
+    margin: 10px 0;
+    border-top: 1px solid rgb(236, 81, 30);
+    padding: 15px;
+}
+
+.evtsm .featured-left {
+    text-align: center;
+}
+
+.evtsm .featured-title {
+    display: block;
+    font-family: "Lato",sans-serif;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.evtsm .featured-region {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.evtsm .featured-date {
+    display: block;
+    font-family: "Lato",sans-serif;
+}
+
+.evtsm .featured-text {
+    font-family: "Lato",sans-serif;
+    margin: 20px 0px;
+}
+
+.evtsm .featured-link {
+    font-size: 1.1em;
+}
+
+.evtsm .featured-link span {
+    font-size: 1.5em;
+    vertical-align: top;
+}
+
+/* End Featured Block */
+
+/* Filter Block */
+.evtsm .filter-block .col-md-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.evtsm .filter-block .col-md-3:first-child {
+    padding-left: 15px;
+}
+
+.evtsm .filter-block .col-md-3:last-child {
+    padding-right: 15px;
+}
+
+.evtsm .inner-filter {
+    background: rgb(234, 235, 235) none repeat scroll 0% 0%;
+    font-size: 1.4em;
+    font-family: "Lato",sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.evtsm .inner-filter.active {
+    box-shadow: #cacaca 2px 2px 3px;
+}
+
+.evtsm .inner-filter span.glyphicon {
+    vertical-align: middle;
+    float: right;
+    font-size: 1.5em;
+}
+
+.evtsm .filter-dp {
+    position: absolute;
+    background: rgb(234, 235, 235) none repeat scroll 0% 0%;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    padding: 10px 0 0;
+    display: none;
+}
+
+.evtsm .inner-filter.active .filter-dp {
+    display: block;
+    box-shadow: #cacaca 2px 5px 3px;
+}
+
+.evtsm .filter-dp-item {
+    display: block;
+    padding: 10px 20px;
+    font-size: 0.9em;
+}
+
+.evtsm .filter-dp-item:hover {
+    background-color: #d43f3a;
+    color: #FFFFFF;
+}
+
+    /* Date Styles */
+    .evtsm .filter-date-events {
+        position: absolute;
+        z-index: 2147483647;
+        display: none;
+        width: 100%;
+        left: 0;
+        box-shadow: #cacaca 2px 2px 3px;
+    }
+
+    .evtsm .inner-filter.active .filter-date-events {
+        display: block;
+    }
+
+    .evtsm .ui-datepicker-header {
+        background: none!important;
+        border: none!important;
+    }
+
+    .evtsm .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+        display: none;
+    }
+
+    .evtsm .ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+        border: none;
+        background: transparent;
+        margin-right: 5%;
+        color: #818385;
+        font-weight: 300;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .evtsm .ui-datepicker-title {
+        color: #1c94c4;
+    }
+
+    .evtsm .ui-state-hover {
+        color: #818385!important;
+        background: none!important;
+        border: none!important;
+    }
+
+    .evtsm .ui-datepicker,
+    .evtsm .ui-datepicker table,
+    .evtsm .ui-datepicker table tbody {
+        background: rgb(234, 235, 235) none repeat scroll 0 0;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .evtsm .ui-state-highlight,
+    .evtsm .ui-state-default:hover {
+        background: #BC2027!important;
+        border: 1px solid #BC2027!important;
+        color: #FFFFFF!important;
+    }
+
+    .evtsm .ui-datepicker-calendar {
+        display: none;
+    }
+
+    /* End Date Styles */
+
+/* End Filter Block */
+
+/* List Block */
+.evtsm .list-block {
+padding-left: 13px;
+}
+
+.evtsm .tile {
+    margin-top: 10px;
+}
+
+.evtsm .inner-tile {
+    background: #f3f3f4;
+    padding: 10px;
+    border-top: 1px solid #ec511e;
+}
+
+.evtsm .tile-left {
+    text-align: center;
+}
+
+.evtsm .tile-left img {
+    max-width: 100%;
+}
+
+.evtsm .tile-right {
+    padding: 20px;
+}
+
+.evtsm .tile-title {
+    margin-top: 10px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+
+.evtsm .tile-type {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.evtsm .tile-date {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+}
+
+.evtsm .tile-text {
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+}
+
+.evtsm .tile-link {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    display: block;
+    margin-top: 10px;
+}
+
+.evtsm .tile-link span {
+    font-size: 1.3em;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+/* End List Block */
+
+/* Not Found Block */
+.evtsm #not-found {
+    font-weight: bold;
+    font-size: 1.3em;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* End Not Found Block */
+
+/* Load More */
+.evtsm .load-more {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.evtsm .load-more-text {
+    color: rgb(129, 131, 133);
+    border: 1px solid rgb(129, 131, 133);
+    border-radius: 1.5rem;
+    padding: 10px 40px;
+    font-family: "Lato",sans-serif;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* End Load More */
+
+/* Responsive Definitions */
+@media all and (max-width: 1280px) and (min-width: 768px) {
+    .evtsm .tile.col-md-4 {
+        width: 50%;
+        display: inline-block;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .evtsm .featured-title {
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 980px) {
+    .evtsm .filter-block .col-md-3 {
+        padding: 0 15px;
+    }
+    .evtsm .event-filter-width{
+    width:100%!important;
+}
+}
+
+/* End Responsive Definitions */

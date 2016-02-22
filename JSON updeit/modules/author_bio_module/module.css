@@ -1,0 +1,132 @@
+/* Bio Block Style */
+.abm .bio {
+    margin: 20px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.abm .bio-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.abm .bio-title {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.abm .bio-block {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.abm .bio-right {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.abm .bio-image {
+    text-align: center;
+}
+
+.abm .bio-image img {
+    border: 25px solid #f8f8f9;
+    border-radius: 500rem;
+    max-width: 100%;
+}
+
+.abm .bio-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.abm .bio-button a {
+    border: 2px solid #88868b;
+    padding: 5px 10px;
+    border-radius: 1.5rem;
+    font-size: 1.5em;
+}
+
+/* End Bio Block Style */
+
+/* Articles Block Style */
+.abm .articles {
+    font-family: 'Lato', sans-serif;
+    margin: 40px auto 0;
+}
+
+.abm .articles-title {
+    display: block;
+    padding: 0 5%;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.abm .tile {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.abm .tile-inner {
+    background: #edeef0;
+    border-top: 1px solid #cc6221;
+}
+
+.abm .tile-left {
+    display: inline-block;
+    width: 48%;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.abm .tile-left img {
+    max-width: 100%;
+}
+
+.abm .tile-right {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+        padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.abm .tile-category {
+    display: block;
+    font-weight: bold;
+}
+
+.abm .tile-date {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.abm .tile-title {
+    display: block;
+    font-size: 1.3em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
+}
+
+.abm .tile-link {
+    vertical-align: bottom;
+}
+
+.abm .tile-link span {
+    vertical-align: top;
+    margin-left: 5px;
+    font-size: 1.5em;
+}
+
+/* End Articles Block Style */
+
+/* Responsive Styles */
+
+
+/* End Responsive Styles */
